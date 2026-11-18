@@ -11,5 +11,5 @@ distribute, or commercially use this work without
 prior written permission from the copyright owner.
 
 For permission or inquiries, please contact me through
-my official portfolio contact page.
+my official portfolio contact page..
   
