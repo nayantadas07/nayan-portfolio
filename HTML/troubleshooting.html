@@ -1,0 +1,354 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description" content="IT support troubleshooting guides covering Windows, hardware, networking, printers, Outlook and software issues.">
+
+    <title>Troubleshooting | Nayan Tadas</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <header class="navbar">
+
+        <a href="index.html" class="logo">
+            <span class="logo-icon">N</span>
+            <span>Nayan<span class="blue-text">.IT</span></span>
+        </a>
+
+        <button class="menu-toggle" id="menuToggle"
+            aria-label="Open navigation menu"
+            aria-expanded="false">
+            ☰
+        </button>
+
+        <nav class="nav-links" id="navLinks">
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="skills.html">Skills</a>
+            <a href="projects.html">Projects</a>
+            <a href="troubleshooting.html" class="active">Troubleshooting</a>
+            <a href="knowledge.html">Knowledge Base</a>
+            <a href="tools.html">Tools</a>
+            <a href="certifications.html">Certifications</a>
+            <a href="contact.html" class="contact-link">Contact</a>
+            
+        </nav>
+
+    </header>
+
+
+    <main class="troubleshooting-page">
+
+        <!-- Page Heading -->
+        <section class="trouble-heading">
+
+            <p class="section-label">IT SUPPORT KNOWLEDGE</p>
+
+            <h1>IT Troubleshooting <span class="blue-text">Guides</span></h1>
+
+            <p>
+                Common technical issues, possible causes and
+                systematic troubleshooting procedures.
+            </p>
+
+        </section>
+
+
+        <!-- Troubleshooting Cards -->
+        <section class="trouble-grid">
+
+
+            <!-- Windows -->
+            <article class="trouble-card">
+
+                <div class="trouble-top">
+                    <span class="trouble-number">01</span>
+                    <span class="trouble-category">Windows OS</span>
+                </div>
+
+                <h2>Computer Running Slow</h2>
+
+                <p class="problem-text">
+                    <strong>Problem:</strong>
+                    Windows system takes too long to start or respond.
+                </p>
+
+                <p>
+                    <strong>Possible Causes:</strong>
+                    High CPU/RAM usage, insufficient storage,
+                    startup applications or malware.
+                </p>
+
+                <h3>Troubleshooting Steps</h3>
+
+                <ol>
+                    <li>Open Task Manager using Ctrl + Shift + Esc.</li>
+                    <li>Check CPU, Memory and Disk utilization.</li>
+                    <li>Disable unnecessary startup applications.</li>
+                    <li>Check available disk space.</li>
+                    <li>Run Windows Defender scan.</li>
+                    <li>Restart and verify system performance.</li>
+                </ol>
+
+                <div class="command-box">
+                    <span>Useful Command</span>
+                    <code>cleanmgr</code>
+                </div>
+
+            </article>
+
+
+            <!-- Network -->
+            <article class="trouble-card">
+
+                <div class="trouble-top">
+                    <span class="trouble-number">02</span>
+                    <span class="trouble-category">Networking</span>
+                </div>
+
+                <h2>No Internet Connectivity</h2>
+
+                <p class="problem-text">
+                    <strong>Problem:</strong>
+                    User cannot access the internet.
+                </p>
+
+                <p>
+                    <strong>Possible Causes:</strong>
+                    Incorrect IP configuration, DNS issues,
+                    disconnected cable or router problems.
+                </p>
+
+                <h3>Troubleshooting Steps</h3>
+
+                <ol>
+                    <li>Check Wi-Fi or Ethernet connectivity.</li>
+                    <li>Verify IP configuration.</li>
+                    <li>Ping the default gateway.</li>
+                    <li>Test connectivity using an external IP.</li>
+                    <li>Check DNS resolution.</li>
+                    <li>Escalate if the network infrastructure is down.</li>
+                </ol>
+
+                <div class="command-box">
+                    <span>Useful Commands</span>
+                    <code>ipconfig /all</code>
+                    <code>ping 8.8.8.8</code>
+                    <code>nslookup google.com</code>
+                </div>
+
+            </article>
+
+
+            <!-- Hardware -->
+            <article class="trouble-card">
+
+                <div class="trouble-top">
+                    <span class="trouble-number">03</span>
+                    <span class="trouble-category">Hardware</span>
+                </div>
+
+                <h2>Computer Not Powering On</h2>
+
+                <p class="problem-text">
+                    <strong>Problem:</strong>
+                    Desktop computer does not start when the
+                    power button is pressed.
+                </p>
+
+                <p>
+                    <strong>Possible Causes:</strong>
+                    Power cable issue, faulty power supply,
+                    loose connections or hardware failure.
+                </p>
+
+                <h3>Troubleshooting Steps</h3>
+
+                <ol>
+                    <li>Check the power socket and power cable.</li>
+                    <li>Verify the SMPS power switch.</li>
+                    <li>Check power indicators and fan activity.</li>
+                    <li>Inspect external connections.</li>
+                    <li>Perform further hardware diagnosis if trained.</li>
+                    <li>Escalate suspected component failure.</li>
+                </ol>
+
+                <div class="command-box">
+                    <span>Diagnostic Area</span>
+                    <code>Hardware Inspection</code>
+                </div>
+
+            </article>
+
+
+            <!-- Printer -->
+            <article class="trouble-card">
+
+                <div class="trouble-top">
+                    <span class="trouble-number">04</span>
+                    <span class="trouble-category">Printer Support</span>
+                </div>
+
+                <h2>Printer Not Printing</h2>
+
+                <p class="problem-text">
+                    <strong>Problem:</strong>
+                    Print jobs are stuck or the printer
+                    does not respond.
+                </p>
+
+                <p>
+                    <strong>Possible Causes:</strong>
+                    Printer offline, driver issues, connection
+                    problems or stuck print queue.
+                </p>
+
+                <h3>Troubleshooting Steps</h3>
+
+                <ol>
+                    <li>Check printer power and connectivity.</li>
+                    <li>Verify printer status in Windows Settings.</li>
+                    <li>Check the default printer selection.</li>
+                    <li>Clear stuck jobs from the print queue.</li>
+                    <li>Restart the Print Spooler service.</li>
+                    <li>Update or reinstall the correct driver.</li>
+                </ol>
+
+                <div class="command-box">
+                    <span>Useful Command</span>
+                    <code>services.msc</code>
+                </div>
+
+            </article>
+
+
+            <!-- Outlook -->
+            <article class="trouble-card">
+
+                <div class="trouble-top">
+                    <span class="trouble-number">05</span>
+                    <span class="trouble-category">Microsoft Outlook</span>
+                </div>
+
+                <h2>Outlook Not Opening</h2>
+
+                <p class="problem-text">
+                    <strong>Problem:</strong>
+                    Microsoft Outlook fails to start or
+                    becomes unresponsive.
+                </p>
+
+                <p>
+                    <strong>Possible Causes:</strong>
+                    Faulty add-ins, corrupted Outlook profile,
+                    application issues or damaged data files.
+                </p>
+
+                <h3>Troubleshooting Steps</h3>
+
+                <ol>
+                    <li>Close Outlook completely.</li>
+                    <li>Open Run using Windows + R.</li>
+                    <li>Run Outlook in Safe Mode.</li>
+                    <li>Disable problematic add-ins if identified.</li>
+                    <li>Check account and profile configuration.</li>
+                    <li>Repair Microsoft 365 if required.</li>
+                </ol>
+
+                <div class="command-box">
+                    <span>Useful Command</span>
+                    <code>outlook.exe /safe</code>
+                </div>
+
+            </article>
+
+
+            <!-- Software -->
+            <article class="trouble-card">
+
+                <div class="trouble-top">
+                    <span class="trouble-number">06</span>
+                    <span class="trouble-category">Software & Drivers</span>
+                </div>
+
+                <h2>Device Driver Not Working</h2>
+
+                <p class="problem-text">
+                    <strong>Problem:</strong>
+                    Hardware device is not functioning
+                    correctly in Windows.
+                </p>
+
+                <p>
+                    <strong>Possible Causes:</strong>
+                    Outdated, missing, incompatible or
+                    corrupted device drivers.
+                </p>
+
+                <h3>Troubleshooting Steps</h3>
+
+                <ol>
+                    <li>Open Device Manager.</li>
+                    <li>Identify devices showing warning icons.</li>
+                    <li>Check the device status and error code.</li>
+                    <li>Download the correct driver from the manufacturer.</li>
+                    <li>Install or update the driver.</li>
+                    <li>Restart and verify device functionality.</li>
+                </ol>
+
+                <div class="command-box">
+                    <span>Useful Command</span>
+                    <code>devmgmt.msc</code>
+                </div>
+
+            </article>
+
+
+        </section>
+
+
+        <!-- Troubleshooting Methodology -->
+        <section class="trouble-method">
+
+            <h2>My Troubleshooting Approach</h2>
+
+            <p>
+                I follow a systematic troubleshooting approach
+                to identify the root cause and resolve technical issues.
+            </p>
+
+            <div class="method-steps">
+                <span>01. Identify</span>
+                <span>02. Diagnose</span>
+                <span>03. Resolve</span>
+                <span>04. Verify</span>
+                <span>05. Document</span>
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <!-- Footer -->
+    <footer class="footer">
+
+        <p>
+            © <span id="currentYear"></span>
+            Nayan Tadas. All rights reserved.
+        </p>
+
+    </footer>
+
+
+    <script src="main.js"></script>
+
+</body>
+</html>

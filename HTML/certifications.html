@@ -1,0 +1,350 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Completed IT Support, Networking and Cybersecurity certifications of Nayan Tadas.">
+    <title>Certifications | Nayan Tadas</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Navigation Bar -->
+    <header class="navbar">
+
+        <a href="index.html" class="logo">
+            <span class="logo-icon">N</span>
+            <span>Nayan<span class="blue-text">.IT</span></span>
+        </a>
+
+        <button class="menu-toggle" id="menuToggle"
+            aria-label="Open navigation menu"
+            aria-expanded="false">
+            ☰
+        </button>
+
+        <nav class="nav-links" id="navLinks">
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="skills.html">Skills</a>
+            <a href="projects.html">Projects</a>
+            <a href="troubleshooting.html">Troubleshooting</a>
+            <a href="knowledge.html">Knowledge Base</a>
+            <a href="tools.html">Tools</a>
+            <a href="certifications.html" class="active">Certifications</a>
+            <a href="contact.html" class="contact-link">Contact</a>
+            
+        </nav>
+
+    </header>
+
+
+    <main class="certifications-page">
+
+        <!-- Page Heading -->
+        <section class="certifications-heading">
+
+            <span class="section-label">
+                LEARNING & ACHIEVEMENTS
+            </span>
+
+            <h1>My <span>Certifications</span></h1>
+
+            <p>
+                A collection of my completed courses and verified
+                learning achievements in IT Support, Networking
+                and Cybersecurity.
+            </p>
+
+        </section>
+
+
+        <!-- Certificate Statistics -->
+        <section class="certificate-stats">
+
+            <div class="certificate-stat">
+                <h2>03</h2>
+                <p>Completed Certificates</p>
+            </div>
+
+        </section>
+
+
+        <!-- Certificate Library -->
+        <section class="certificate-library">
+
+            <div class="certificate-library-heading">
+
+                <div>
+                    <h2>Certificate Library</h2>
+                    <p>Explore my completed learning achievements.</p>
+                </div>
+
+                <span class="certificate-count" id="certificateCount">
+                    3 Certificates
+                </span>
+
+            </div>
+
+
+            <!-- Certificate Filters -->
+            <div class="certificate-filters" role="group"
+                 aria-label="Filter certificates">
+
+                <button class="certificate-filter active"
+                        data-filter="all"
+                        aria-pressed="true">
+                    All
+                </button>
+
+                <button class="certificate-filter"
+                        data-filter="networking"
+                        aria-pressed="false">
+                    Networking
+                </button>
+
+                <button class="certificate-filter"
+                        data-filter="cybersecurity"
+                        aria-pressed="false">
+                    Cybersecurity
+                </button>
+
+                <button class="certificate-filter"
+                        data-filter="it-support"
+                        aria-pressed="false">
+                    IT Support
+                </button>
+
+            </div>
+
+
+            <!-- Certificate Cards -->
+            <div class="certificate-grid" id="certificateGrid">
+
+
+                <!-- Certificate 1: Networking Basics -->
+                <article class="certificate-card"
+                         data-category="networking">
+
+                    <div class="certificate-image">
+
+                        <img
+                            src="../assets/certificates/networking-basics.jpeg"
+                            alt="Cisco Networking Academy Networking Basics Certificate"
+                            loading="lazy"
+                        >
+
+                        <span class="certificate-status completed">
+                            Completed
+                        </span>
+
+                    </div>
+
+
+                    <div class="certificate-content">
+
+                        <span class="certificate-category">
+                            NETWORKING
+                        </span>
+
+                        <h3>Networking Basics</h3>
+
+                        <p class="certificate-issuer">
+                            Cisco Networking Academy
+                        </p>
+
+                        <p class="certificate-description">
+                            Covers network communication, Ethernet,
+                            IPv4, IPv6, routers and network
+                            troubleshooting.
+                        </p>
+
+                        <div class="certificate-meta">
+                            <span>Issued: 06 Aug 2026</span>
+                            <span>Course Completion</span>
+                        </div>
+
+                        <button
+                            class="view-certificate"
+                            data-image="../assets/certificates/networking-basics.jpeg"
+                            data-title="Networking Basics">
+                            View Certificate
+                        </button>
+
+                    </div>
+
+                </article>
+
+
+
+                <!-- Certificate 2: Introduction to Cybersecurity -->
+                <article class="certificate-card"
+                         data-category="cybersecurity">
+
+                    <div class="certificate-image">
+
+                        <img
+                            src="../assets/certificates/introduction-to-cybersecurity.jpeg"
+                            alt="Introduction to Cybersecurity Certificate"
+                            loading="lazy"
+                        >
+
+                        <span class="certificate-status completed">
+                            Completed
+                        </span>
+
+                    </div>
+
+
+                    <div class="certificate-content">
+
+                        <span class="certificate-category">
+                            CYBERSECURITY
+                        </span>
+
+                        <h3>Introduction to Cybersecurity</h3>
+
+                        <p class="certificate-issuer">
+                            Cisco Networking Academy
+                        </p>
+
+                        <p class="certificate-description">
+                            Covers cybersecurity fundamentals,
+                            common cyber threats, vulnerabilities
+                            and online safety.
+                        </p>
+
+                        <div class="certificate-meta">
+                            <span>Issued: 06 Aug 2026</span>
+                            <span>Course Completion</span>
+                        </div>
+
+                        <button
+                            class="view-certificate"
+                            data-image="../assets/certificates/introduction-to-cybersecurity.jpeg"
+                            data-title="Introduction to Cybersecurity">
+                            View Certificate
+                        </button>
+
+                    </div>
+
+                </article>
+
+
+
+                <!-- Certificate 3: IT Customer Support Basics -->
+                <article class="certificate-card"
+                         data-category="it-support">
+
+                    <div class="certificate-image">
+
+                        <img
+                            src="../assets/certificates/it-customer-support-basics.jpeg"
+                            alt="Cisco Networking Academy IT Customer Support Basics Certificate"
+                            loading="lazy"
+                        >
+
+                        <span class="certificate-status completed">
+                            Completed
+                        </span>
+
+                    </div>
+
+
+                    <div class="certificate-content">
+
+                        <span class="certificate-category">
+                            IT SUPPORT
+                        </span>
+
+                        <h3>IT Customer Support Basics</h3>
+
+                        <p class="certificate-issuer">
+                            Cisco Networking Academy
+                        </p>
+
+                        <p class="certificate-description">
+                            Covers help desk fundamentals, customer
+                            issue documentation, step-by-step
+                            troubleshooting, remote support and
+                            common productivity application support.
+                        </p>
+
+                        <div class="certificate-meta">
+                            <span>Issued: 14 Nov 2026</span>
+                            <span>Course Completion</span>
+                        </div>
+
+                        <button
+                            class="view-certificate"
+                            data-image="../assets/certificates/it-customer-support-basics.jpeg"
+                            data-title="IT Customer Support Basics">
+                            View Certificate
+                        </button>
+
+                    </div>
+
+                </article>
+
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <!-- Certificate Preview Modal -->
+    <div class="certificate-modal"
+         id="certificateModal"
+         role="dialog"
+         aria-modal="true"
+         aria-labelledby="modalTitle"
+         aria-hidden="true">
+
+        <div class="modal-content">
+
+            <div class="modal-header">
+
+                <h2 id="modalTitle">
+                    Certificate Preview
+                </h2>
+
+                <button
+                    type="button"
+                    class="modal-close"
+                    id="closeCertificateModal"
+                    aria-label="Close certificate preview">
+                    &times;
+                </button>
+
+            </div>
+
+            <img
+                src=""
+                alt="Certificate preview"
+                id="modalCertificateImage"
+            >
+
+        </div>
+
+    </div>
+
+
+    <!-- Footer -->
+    <footer class="footer">
+
+        <p>
+            © <span id="currentYear"></span>
+            Nayan Tadas. All Rights Reserved.
+        </p>
+
+    </footer>
+
+
+    <script src="main.js"></script>
+
+</body>
+</html>

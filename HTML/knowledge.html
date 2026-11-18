@@ -1,0 +1,524 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description" content="Technical knowledge base covering Windows, Linux, networking commands, protocols, ports and IT support concepts.">
+
+    <title>Knowledge Base | Nayan Tadas</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <header class="navbar">
+
+        <a href="index.html" class="logo">
+            <span class="logo-icon">N</span>
+            <span>Nayan<span class="blue-text">.IT</span></span>
+        </a>
+
+        <button class="menu-toggle" id="menuToggle"
+            aria-label="Open navigation menu"
+            aria-expanded="false">
+            ☰
+        </button>
+
+        <nav class="nav-links" id="navLinks">
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="skills.html">Skills</a>
+            <a href="projects.html">Projects</a>
+            <a href="troubleshooting.html">Troubleshooting</a>
+            <a href="knowledge.html" class="active">Knowledge Base</a>
+            <a href="tools.html">Tools</a>
+            <a href="certifications.html">Certifications</a>
+            <a href="contact.html" class="contact-link">Contact</a>
+            
+        </nav>
+
+    </header>
+
+
+    <main class="knowledge-page">
+
+        <!-- Heading -->
+        <section class="knowledge-heading">
+
+            <p class="section-label">TECHNICAL REFERENCE LIBRARY</p>
+
+            <h1>Knowledge <span class="blue-text">Base</span></h1>
+
+            <p>
+                A collection of technical commands, networking
+                concepts and IT support reference notes.
+            </p>
+
+        </section>
+
+
+        <!-- Windows Commands -->
+        <section class="knowledge-section">
+
+            <div class="knowledge-section-heading">
+                <span class="knowledge-number">01</span>
+                <h2>Windows CMD Commands</h2>
+            </div>
+
+            <div class="knowledge-table-wrapper">
+                <table class="knowledge-table">
+
+                    <thead>
+                        <tr>
+                            <th>Command</th>
+                            <th>Purpose</th>
+                        </tr>
+                    </thead>
+
+                    <tbody>
+                        <tr>
+                            <td><code>sfc /scannow</code></td>
+                            <td>Scans and repairs protected Windows system files.</td>
+                        </tr>
+
+                        <tr>
+                            <td><code>chkdsk</code></td>
+                            <td>Checks a volume for file-system errors.</td>
+                        </tr>
+
+                        <tr>
+                            <td><code>ipconfig /all</code></td>
+                            <td>Displays detailed IP configuration.</td>
+                        </tr>
+
+                        <tr>
+                            <td><code>ipconfig /flushdns</code></td>
+                            <td>Clears the DNS resolver cache.</td>
+                        </tr>
+
+                        <tr>
+                            <td><code>systeminfo</code></td>
+                            <td>Displays system configuration information.</td>
+                        </tr>
+
+                        <tr>
+                            <td><code>tasklist</code></td>
+                            <td>Displays running processes.</td>
+                        </tr>
+
+                        <tr>
+                            <td><code>taskkill</code></td>
+                            <td>Terminates a running process.</td>
+                        </tr>
+
+                        <tr>
+                            <td><code>DISM /Online /Cleanup-Image /RestoreHealth</code></td>
+                            <td>Repairs the Windows component store.</td>
+                        </tr>
+                    </tbody>
+
+                </table>
+            </div>
+
+        </section>
+
+
+        <!-- Run Commands -->
+        <section class="knowledge-section">
+
+            <div class="knowledge-section-heading">
+                <span class="knowledge-number">02</span>
+                <h2>Windows Run Commands</h2>
+            </div>
+
+            <div class="knowledge-table-wrapper">
+                <table class="knowledge-table">
+
+                    <thead>
+                        <tr>
+                            <th>Run Command</th>
+                            <th>Purpose</th>
+                        </tr>
+                    </thead>
+
+                    <tbody>
+                        <tr>
+                            <td><code>devmgmt.msc</code></td>
+                            <td>Opens Device Manager.</td>
+                        </tr>
+
+                        <tr>
+                            <td><code>diskmgmt.msc</code></td>
+                            <td>Opens Disk Management.</td>
+                        </tr>
+
+                        <tr>
+                            <td><code>services.msc</code></td>
+                            <td>Opens Windows Services.</td>
+                        </tr>
+
+                        <tr>
+                            <td><code>eventvwr.msc</code></td>
+                            <td>Opens Event Viewer.</td>
+                        </tr>
+
+                        <tr>
+                            <td><code>ncpa.cpl</code></td>
+                            <td>Opens Network Connections.</td>
+                        </tr>
+
+                        <tr>
+                            <td><code>appwiz.cpl</code></td>
+                            <td>Opens Programs and Features.</td>
+                        </tr>
+
+                        <tr>
+                            <td><code>msconfig</code></td>
+                            <td>Opens System Configuration.</td>
+                        </tr>
+
+                        <tr>
+                            <td><code>control</code></td>
+                            <td>Opens Control Panel.</td>
+                        </tr>
+                    </tbody>
+
+                </table>
+            </div>
+
+        </section>
+
+
+        <!-- Networking Commands -->
+        <section class="knowledge-section">
+
+            <div class="knowledge-section-heading">
+                <span class="knowledge-number">03</span>
+                <h2>Networking Commands</h2>
+            </div>
+
+            <div class="knowledge-table-wrapper">
+                <table class="knowledge-table">
+
+                    <thead>
+                        <tr>
+                            <th>Command</th>
+                            <th>Purpose</th>
+                        </tr>
+                    </thead>
+
+                    <tbody>
+                        <tr>
+                            <td><code>ping 8.8.8.8</code></td>
+                            <td>Tests IP connectivity using ICMP Echo.</td>
+                        </tr>
+
+                        <tr>
+                            <td><code>tracert google.com</code></td>
+                            <td>Displays the route packets take to a destination.</td>
+                        </tr>
+
+                        <tr>
+                            <td><code>nslookup google.com</code></td>
+                            <td>Queries DNS records.</td>
+                        </tr>
+
+                        <tr>
+                            <td><code>arp -a</code></td>
+                            <td>Displays the ARP cache.</td>
+                        </tr>
+
+                        <tr>
+                            <td><code>route print</code></td>
+                            <td>Displays the IP routing table.</td>
+                        </tr>
+
+                        <tr>
+                            <td><code>netstat -ano</code></td>
+                            <td>Displays network connections and process IDs.</td>
+                        </tr>
+                    </tbody>
+
+                </table>
+            </div>
+
+        </section>
+
+
+        <!-- Linux Commands -->
+        <section class="knowledge-section">
+
+            <div class="knowledge-section-heading">
+                <span class="knowledge-number">04</span>
+                <h2>Linux Commands</h2>
+            </div>
+
+            <div class="knowledge-table-wrapper">
+                <table class="knowledge-table">
+
+                    <thead>
+                        <tr>
+                            <th>Command</th>
+                            <th>Purpose</th>
+                        </tr>
+                    </thead>
+
+                    <tbody>
+                        <tr>
+                            <td><code>pwd</code></td>
+                            <td>Displays the current working directory.</td>
+                        </tr>
+
+                        <tr>
+                            <td><code>ls -la</code></td>
+                            <td>Lists files, including hidden files.</td>
+                        </tr>
+
+                        <tr>
+                            <td><code>cd</code></td>
+                            <td>Changes the current directory.</td>
+                        </tr>
+
+                        <tr>
+                            <td><code>mkdir</code></td>
+                            <td>Creates a directory.</td>
+                        </tr>
+
+                        <tr>
+                            <td><code>chmod</code></td>
+                            <td>Changes file or directory permissions.</td>
+                        </tr>
+
+                        <tr>
+                            <td><code>chown</code></td>
+                            <td>Changes file or directory ownership.</td>
+                        </tr>
+
+                        <tr>
+                            <td><code>systemctl status</code></td>
+                            <td>Checks the status of a systemd service.</td>
+                        </tr>
+
+                        <tr>
+                            <td><code>ip addr</code></td>
+                            <td>Displays network interface addresses.</td>
+                        </tr>
+
+                        <tr>
+                            <td><code>df -h</code></td>
+                            <td>Displays disk space usage.</td>
+                        </tr>
+
+                        <tr>
+                            <td><code>free -h</code></td>
+                            <td>Displays memory usage.</td>
+                        </tr>
+                    </tbody>
+
+                </table>
+            </div>
+
+        </section>
+
+
+        <!-- Networking Protocols -->
+        <section class="knowledge-section">
+
+            <div class="knowledge-section-heading">
+                <span class="knowledge-number">05</span>
+                <h2>Networking Protocols & Ports</h2>
+            </div>
+
+            <div class="knowledge-table-wrapper">
+                <table class="knowledge-table">
+
+                    <thead>
+                        <tr>
+                            <th>Protocol</th>
+                            <th>Port</th>
+                            <th>Purpose</th>
+                        </tr>
+                    </thead>
+
+                    <tbody>
+                        <tr>
+                            <td>HTTP</td>
+                            <td>TCP 80</td>
+                            <td>Web communication.</td>
+                        </tr>
+
+                        <tr>
+                            <td>HTTPS</td>
+                            <td>TCP 443</td>
+                            <td>Secure web communication.</td>
+                        </tr>
+
+                        <tr>
+                            <td>FTP</td>
+                            <td>TCP 20, 21</td>
+                            <td>File transfer (active mode data and control).</td>
+                        </tr>
+
+                        <tr>
+                            <td>SSH</td>
+                            <td>TCP 22</td>
+                            <td>Secure remote access.</td>
+                        </tr>
+
+                        <tr>
+                            <td>Telnet</td>
+                            <td>TCP 23</td>
+                            <td>Unencrypted remote terminal access.</td>
+                        </tr>
+
+                        <tr>
+                            <td>SMTP</td>
+                            <td>TCP 25</td>
+                            <td>Email transfer between mail servers.</td>
+                        </tr>
+
+                        <tr>
+                            <td>DNS</td>
+                            <td>TCP/UDP 53</td>
+                            <td>Domain name resolution.</td>
+                        </tr>
+
+                        <tr>
+                            <td>DHCP</td>
+                            <td>UDP 67, 68</td>
+                            <td>Automatic IP address configuration.</td>
+                        </tr>
+
+                        <tr>
+                            <td>POP3</td>
+                            <td>TCP 110</td>
+                            <td>Email retrieval.</td>
+                        </tr>
+
+                        <tr>
+                            <td>IMAP</td>
+                            <td>TCP 143</td>
+                            <td>Email access and synchronization.</td>
+                        </tr>
+
+                        <tr>
+                            <td>RDP</td>
+                            <td>TCP/UDP 3389</td>
+                            <td>Remote Desktop access.</td>
+                        </tr>
+
+                        <tr>
+                            <td>SNMP</td>
+                            <td>UDP 161, 162</td>
+                            <td>Network monitoring and notifications.</td>
+                        </tr>
+
+                        <tr>
+                            <td>LDAP</td>
+                            <td>TCP/UDP 389</td>
+                            <td>Directory service access.</td>
+                        </tr>
+
+                        <tr>
+                            <td>LDAPS</td>
+                            <td>TCP 636</td>
+                            <td>LDAP over TLS.</td>
+                        </tr>
+
+                    </tbody>
+
+                </table>
+            </div>
+
+            <p class="knowledge-note">
+                Note: These are common default ports. Actual port usage
+                may vary depending on configuration and service.
+            </p>
+
+        </section>
+
+
+        <!-- IT Support Fundamentals -->
+        <section class="knowledge-section fundamentals-section">
+
+            <div class="knowledge-section-heading">
+                <span class="knowledge-number">06</span>
+                <h2>IT Support Fundamentals</h2>
+            </div>
+
+            <div class="fundamentals-grid">
+
+                <div class="fundamental-card">
+                    <h3>Incident Management</h3>
+                    <p>
+                        Restoring normal IT service operation
+                        as quickly as possible after an incident.
+                    </p>
+                </div>
+
+                <div class="fundamental-card">
+                    <h3>Service Request</h3>
+                    <p>
+                        A formal request from a user for a
+                        standard IT service or information.
+                    </p>
+                </div>
+
+                <div class="fundamental-card">
+                    <h3>Root Cause Analysis</h3>
+                    <p>
+                        Identifying the underlying reason
+                        behind a recurring or major issue.
+                    </p>
+                </div>
+
+                <div class="fundamental-card">
+                    <h3>SLA</h3>
+                    <p>
+                        Service Level Agreement defines
+                        agreed service targets and expectations.
+                    </p>
+                </div>
+
+                <div class="fundamental-card">
+                    <h3>Escalation</h3>
+                    <p>
+                        Transferring an unresolved issue
+                        to the appropriate support team.
+                    </p>
+                </div>
+
+                <div class="fundamental-card">
+                    <h3>Ticket Management</h3>
+                    <p>
+                        Recording, tracking, updating and
+                        resolving user-reported IT issues.
+                    </p>
+                </div>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <!-- Footer -->
+    <footer class="footer">
+
+        <p>
+            © <span id="currentYear"></span>
+            Nayan Tadas. All rights reserved.
+        </p>
+
+    </footer>
+
+
+    <script src="main.js"></script>
+
+</body>
+</html>
